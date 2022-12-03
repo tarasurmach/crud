@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<table>
+    <tr>
+        <td>
+            <form autocomplete="off" id="form" >
+                <div>
+                <label>Full Name</label>
+                <input type="text" name="fullName" id="fullName">
+                </div>
+                <div>
+                <label>EMP Code</label>
+                <input type="text" name="fullName" id="empCode">
+                </div>
+                <div>
+                    <label>Salary</label>
+                    <input type="text" name="fullName" id="salary">
+                </div>
+                <div>
+                    <label>City</label>
+                    <input type="text" name="fullName" id="city">
+                </div>
+                <div class="form-action-buttons">
+                    <input type="submit" value="Submit">
+
+                </div>
+            </form>
+        </td>
+        <td>
+        <table class="list" id="employeeList">
+            <thead>
+            <tr>
+                <th>Full Name</th>
+                <th>EMP Code</th>
+                <th>Salary</th>
+                <th>City</th>
+            </tr>
+            </thead>
+            <tbody >
+
+            </tbody>
+        </table>
+
+
+        </td>
+
+    </tr>
+</table>
+
+<script src="crud.js"></script>
+</body>
+</html>
